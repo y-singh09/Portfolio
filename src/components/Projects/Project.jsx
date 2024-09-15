@@ -29,7 +29,7 @@ const Projects = () => {
           title="Password Generator"
           main="A responsive password generator application built using JavaScript and React. 
           It allows users to create strong, random passwords with customizable options for length, character types, and complexity."
-          demoClick={()=>onDemoClick('https://github.com/y-singh09/Passsword-Generator.git')}
+          demoClick={()=>onDemoClick('https://passsword-generator-red.vercel.app/')}
           sourceClick={()=>onSourceClick('https://github.com/y-singh09/Passsword-Generator/blob/main/src/App.jsx')}
         />
 
@@ -38,7 +38,7 @@ const Projects = () => {
         title="To-Do List App"
         main="A simple and efficient To-Do List application built to help users manage their tasks. 
         Features include adding, editing, and deleting tasks, as well as tracking task completion."
-        demoClick={()=>onDemoClick('https://github.com/y-singh09/React_project_Todolist.git')}
+        demoClick={()=>onDemoClick('https://react-project-todolist-neon.vercel.app/')}
         sourceClick={()=>onSourceClick('https://github.com/y-singh09/React_project_Todolist/blob/main/src/App.jsx')}
       />
 
@@ -54,7 +54,7 @@ const Projects = () => {
               img="https://github.com/y-singh09/Hangman-Game/blob/main/screenshots/Screenshot_04.png?raw=true"
           title="Hangman Game"
           main="A classic Hangman game implemented in JavaScript and React. This project features an interactive UI where players guess letters to reveal a hidden word before running out of attempts. Includes word selection, dynamic rendering of guesses, and a user-friendly interface."
-          demoClick={()=>onDemoClick('https://github.com/y-singh09/Hangman-Game.git')}
+          demoClick={()=>onDemoClick('https://hangman-game-eight-murex.vercel.app/')}
           sourceClick={()=>onSourceClick('https://github.com/y-singh09/Hangman-Game/blob/main/app.js')}
 />
 <ProjectCard
