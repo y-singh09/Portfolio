@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const ProjectCard = ({ title, main,img,demoClick,sourceClick}) => {
 
   return (
-  <div className="p-5 m-8 md:p-6 flex flex-col w-full md:w-80 bg-blue-300 bg-opacity-30 shadow-xl shadow-slate-900 rounded-2xl hover:opacity-85 duration-300 hover:scale-110 backdrop-blur-sm">
+  <div className="p-5 m-8 md:p-6 flex flex-col w-full md:w-60 bg-blue-300 bg-opacity-30 shadow-xl shadow-slate-900 rounded-2xl hover:opacity-85 duration-300 hover:scale-110 backdrop-blur-sm">
 
   <img className="p-4" src={img} alt={title} />
   <h3 className="px-3 text-black text-xl md:text-2xl font-bold leading-normal">
