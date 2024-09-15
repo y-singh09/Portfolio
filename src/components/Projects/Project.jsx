@@ -10,7 +10,7 @@ const Projects = () => {
         window.open(url,'_blank')
   }
   return (
-    <div id="projects" className="p-20 mx-12 md:p-24 text-white bg-[url('https://raw.githubusercontent.com/judygab/web-dev-projects/42c815099332e69edcef4593d6f593224b94ba40/personal-portfolio/src/assets/img/contact-img.svg')] bg-cover bg-center">
+    <div id="projects" className="p-20 mx-10 md:p-24 text-white bg-[url('https://raw.githubusercontent.com/judygab/web-dev-projects/42c815099332e69edcef4593d6f593224b94ba40/personal-portfolio/src/assets/img/contact-img.svg')] bg-cover bg-center">
       <h1 className="text-center text-5xl md:text-5xl text-blue-900 font-bold">Projects</h1>
       <div className="py-8 px-30 mx-50 flex flex-wrap gap-5">
         
