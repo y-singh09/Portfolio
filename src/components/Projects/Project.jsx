@@ -10,9 +10,9 @@ const Projects = () => {
         window.open(url,'_blank')
   }
   return (
-    <div id="projects" className="p-20 mx-10 md:p-24 text-white bg-[url('https://raw.githubusercontent.com/judygab/web-dev-projects/42c815099332e69edcef4593d6f593224b94ba40/personal-portfolio/src/assets/img/contact-img.svg')] bg-cover bg-center">
+    <div id="projects" className="p-20 mx-12 md:p-24 text-white bg-[url('https://raw.githubusercontent.com/judygab/web-dev-projects/42c815099332e69edcef4593d6f593224b94ba40/personal-portfolio/src/assets/img/contact-img.svg')] bg-cover bg-center">
       <h1 className="text-center text-5xl md:text-5xl text-blue-900 font-bold">Projects</h1>
-      <div className="py-8 px-30 mx-50 flex flex-wrap gap-5">
+      <div className="py-8 px-30 mx-50 flex flex-wrap gap-5 ">
         
             <ProjectCard
             img="https://github.com/y-singh09/Wall-Breaker/blob/master/Screenshot_02.png?raw=true"
@@ -24,14 +24,14 @@ const Projects = () => {
         sourceClick={()=>onSourceClick('https://github.com/y-singh09/Wall-Breaker/blob/master/Gameplay.java')}
       />
 
-        <ProjectCard
-          img="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600"
-          title="Password Generator"
-          main="A responsive password generator application built using JavaScript and React. 
-          It allows users to create strong, random passwords with customizable options for length, character types, and complexity."
-          demoClick={()=>onDemoClick('https://passsword-generator-red.vercel.app/')}
-          sourceClick={()=>onSourceClick('https://github.com/y-singh09/Passsword-Generator/blob/main/src/App.jsx')}
-        />
+     
+                   <ProjectCard
+              img="https://github.com/y-singh09/Hangman-Game/blob/main/screenshots/Screenshot_04.png?raw=true"
+          title="Hangman Game"
+          main="A classic Hangman game implemented in JavaScript and React. This project features an interactive UI where players guess letters to reveal a hidden word before running out of attempts. Includes word selection, dynamic rendering of guesses, and a user-friendly interface."
+          demoClick={()=>onDemoClick('https://hangman-game-eight-murex.vercel.app/')}
+          sourceClick={()=>onSourceClick('https://github.com/y-singh09/Hangman-Game/blob/main/app.js')}
+/>
 
        <ProjectCard
         img="https://github.com/y-singh09/React_project_Todolist/blob/main/Screenshot_02.png?raw=true"
@@ -41,7 +41,21 @@ const Projects = () => {
         demoClick={()=>onDemoClick('https://react-project-todolist-neon.vercel.app/')}
         sourceClick={()=>onSourceClick('https://github.com/y-singh09/React_project_Todolist/blob/main/src/App.jsx')}
       />
-
+      <ProjectCard
+          img="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600"
+          title="Password Generator"
+          main="A responsive password generator application built using JavaScript and React. 
+          It allows users to create strong, random passwords with customizable options for length, character types, and complexity."
+          demoClick={()=>onDemoClick('https://passsword-generator-red.vercel.app/')}
+          sourceClick={()=>onSourceClick('https://github.com/y-singh09/Passsword-Generator/blob/main/src/App.jsx')}
+        />
+<ProjectCard
+              img="https://github.com/y-singh09/Tic-Tac-Toe/raw/main/Game_Screenshot01.png"
+          title="Tic-Tac-Toe"
+          main="The Tic Tac Toe project is a web-based game developed using JavaScript, HTML, and CSS. It allows two players to take turns marking X and O on a 3x3 grid. The game is built with simple yet effective logic to detect winning combinations and determine when a player has won or when the game results in a draw. Players can reset the game and play multiple rounds. The user interface is designed to be clean and responsive, making it accessible across different devices. This project provides an excellent opportunity to practice JavaScript event handling, game state management, and DOM manipulation."
+          demoClick={()=>onDemoClick('https://66f81081778c4dead9eb400d--silly-brioche-b9be3c.netlify.app/')}
+          sourceClick={()=>onSourceClick('https://github.com/y-singh09/Tic-Tac-Toe/blob/main/TicTacToe/app.js')}
+/>
       <ProjectCard
         img="https://b2633864.smushcdn.com/2633864/wp-content/uploads/2020/09/opencv_anpr_example.jpg?lossy=2&strip=1&webp=1"
         title="License Plate Detection System"
@@ -50,20 +64,8 @@ const Projects = () => {
         demoClick={()=>onDemoClick('https://github.com/y-singh09/License-Plate-Recognition.git')}
         sourceClick={()=>onSourceClick('https://github.com/y-singh09/License-Plate-Recognition/blob/main/number_plate.py')}
       />
-              <ProjectCard
-              img="https://github.com/y-singh09/Hangman-Game/blob/main/screenshots/Screenshot_04.png?raw=true"
-          title="Hangman Game"
-          main="A classic Hangman game implemented in JavaScript and React. This project features an interactive UI where players guess letters to reveal a hidden word before running out of attempts. Includes word selection, dynamic rendering of guesses, and a user-friendly interface."
-          demoClick={()=>onDemoClick('https://hangman-game-eight-murex.vercel.app/')}
-          sourceClick={()=>onSourceClick('https://github.com/y-singh09/Hangman-Game/blob/main/app.js')}
-/>
-<ProjectCard
-              img="https://github.com/y-singh09/Tic-Tac-Toe/raw/main/Game_Screenshot01.png"
-          title="Tic-Tac-Toe"
-          main="The Tic Tac Toe project is a web-based game developed using JavaScript, HTML, and CSS. It allows two players to take turns marking X and O on a 3x3 grid. The game is built with simple yet effective logic to detect winning combinations and determine when a player has won or when the game results in a draw. Players can reset the game and play multiple rounds. The user interface is designed to be clean and responsive, making it accessible across different devices. This project provides an excellent opportunity to practice JavaScript event handling, game state management, and DOM manipulation."
-          demoClick={()=>onDemoClick('https://github.com/y-singh09/Tic-Tac-Toe.git')}
-          sourceClick={()=>onSourceClick('https://github.com/y-singh09/Tic-Tac-Toe/blob/main/TicTacToe/app.js')}
-/>
+      
+
 
 
       </div>
