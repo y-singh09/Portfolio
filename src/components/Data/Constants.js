@@ -37,7 +37,7 @@ export const Bio = [
       school: "Acharya Institutes of Technology,Bengaluru",
       date: "Dec 2021 - Aug 2025",
       grade: "9.05 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Acharya Institues of Technology,Bengaluru. I have completed 6 semesters and have a CGPA of 9.05. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. My college journey is full of academics performance along with other non academic activities including sports and participation in hackathons as well.",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Acharya Institues of Technology,Bengaluru. I have completed 6 semesters and have a CGPA of 9.05. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.  My college journey is full of academics performance along with other non academic activities including sports and participation in hackathons as well.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
