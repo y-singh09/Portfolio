@@ -102,10 +102,6 @@ export const Bio = [
           name: "Node Js",
           image: "https://nodejs.org/static/images/logo.svg",
         },
-        {
-          name: "Express Js",
-          image:"https://cdn.hashnode.com/res/hashnode/image/upload/v1675637255386/f3a9a38b-116d-4b35-8f46-8d8abb78166f.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
-        },
       
         {
           name: "Python",
