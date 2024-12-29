@@ -60,7 +60,7 @@ const Home = () => {
             When I'm not coding, you'll find me exploring new tools or contributing to open-source projects.
           </p>
           
-          <CheckBtn href="https://drive.google.com/file/d/14P9m4LT3YZA4EPDvo5cwZ1m2m42jqc4N/view?usp=drive_link">
+          <CheckBtn href="https://drive.google.com/file/d/1QZXn3x6Y6yocRFBJGPT1FUy1SVNrxkyE/view?usp=drive_link">
             Check Resume
           </CheckBtn>
         </div>
