@@ -65,7 +65,7 @@ const Home = () => {
           </CheckBtn>
         </div>
         <div className="flex justify-center md:ml-10 mt-10 md:mt-15">
-          <img  className="w-full h-full md:w-full md:h-full object-cover rounded-full" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4c6af063065537.5aad14955f42a.gif" alt="Avatar" />
+          <img  className="w-full h-full md:w-80 md:h-80 object-cover rounded-full" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4c6af063065537.5aad14955f42a.gif" alt="Avatar" />
         </div>
       </div>
 
