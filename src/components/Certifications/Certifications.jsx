@@ -96,6 +96,16 @@ const Certifications = () => {
     src='https://leetcode.com/static/images/badges/2024/gif/2024-07.gif'
     alt="Leetcode Badge 2024-07"
   />
+  <img
+    className="md:h-80 px-2"
+    src='https://assets.leetcode.com/static_assets/marketing/2024-100-new.gif'
+    alt="Leetcode Badge 2024-07"
+  />
+  <img
+    className="md:h-80 px-2"
+    src='https://assets.leetcode.com/static_assets/others/Top_SQL_50.gif'
+    alt="Leetcode Badge 2024-07"
+  />
 </div>
 
                 <p className="text-md md:text-md py-5 leading-tight text-blue-900">
